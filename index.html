@@ -5,71 +5,356 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudipta Shaheen Sajid - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="intro">
-        <div class="profile-container">
-            <img src="./Pic/Sajid.jpeg" alt="Profile Photo" class="profile-photo">
-            <div class="info-popup">
-                <h1>Sudipta Shaheen Sajid</h1>
-                <p>
-                    Phone: <a href="phoneto:+1 (857) 693-1038">+1 (857) 693-1038 </a><br/>
-                Email:<a href="tel:drsajid544@gmail.com">drsajid544@gmail.com</a>
-             </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Sajid</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i> About
+                </a>
+                <a href="#education" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </a>
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experience
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">Hello, I'm</p>
+                <h1 class="hero-title">Sudipta Shaheen Sajid</h1>
+                <p class="hero-description">Medical Professional & Healthcare Specialist</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <i class="fas fa-user"></i> About Me
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+19173254319" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:drsajid544@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sudipta-shaheen-sajid-284910326/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="./Pic/Sajid.jpeg" alt="Sudipta Shaheen Sajid" class="profile-photo">
+                    <div class="image-overlay">
+                        <div class="floating-icons">
+                            <i class="fas fa-stethoscope floating-icon"></i>
+                            <i class="fas fa-pills floating-icon"></i>
+                            <i class="fas fa-heart-pulse floating-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-user"></i> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated medical professional with extensive experience in healthcare and patient care. My journey spans from completing my MBBS to gaining practical experience in various healthcare settings.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>7+</h3>
+                            <p>Years of Medical Education</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Professional Roles</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    
-    <section class="qualification">
-        <h1>Qualifications</h1>
-        <ul>
-            <li class="qualification-item">
-                <h3>Hebei North University</h3>
-                <p>Bachelor of Medicine, Bachelor of Surgery - MBBS, Medicine</p>
-                <p>2015 - 2022</p>
-            </li>
-            <li class="qualification-item">
-                <h3>Sreemangal Govt College</h3>
-                <p>Associate's degree, General Studies</p>
-                <p>Jan 2013 - 2014</p>
-            </li>
-        </ul>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-graduation-cap"></i> Education
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Hebei North University</h3>
+                        <h4>Bachelor of Medicine, Bachelor of Surgery - MBBS</h4>
+                        <p class="timeline-date">
+                            <i class="fas fa-calendar"></i> 2015 - 2022
+                        </p>
+                        <p>Comprehensive medical education covering all aspects of medicine and surgery.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Sreemangal Govt College</h3>
+                        <h4>Associate's degree, General Studies</h4>
+                        <p class="timeline-date">
+                            <i class="fas fa-calendar"></i> Jan 2013 - 2014
+                        </p>
+                        <p>Foundation studies preparing for higher education in medical field.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section class="experience">
-        <h1>Experience</h1>
-        <ul>
-            <li class="experience-item">
-                <h3>Dunkin' Donuts - Crew Member</h3>
-                <p>October 24, 2022 - June 30, 2023</p>
-                <p>222 Broadway, Cambridge, Massachusetts 02139</p>
-                <ul>
-                    <li>Provided excellent customer service in a fast-paced environment.</li>
-                    <li>Assisted in food preparation, ensuring quality and consistency.</li>
-                    <li>Managed cash register operations, handling transactions with accuracy.</li>
-                </ul>
-            </li>
-            <li class="experience-item">
-                <h3>CVS Pharmacy - Pharmacy Technician</h3>
-                <p>December 22, 2022 - April 14, 2024</p>
-                <p>624 Mass Ave, Cambridge, Massachusetts 02139</p>
-                <ul>
-                    <li>Supported pharmacists in dispensing medications.</li>
-                    <li>Maintained accurate patient records and inventory management.</li>
-                    <li>Provided patient care by addressing inquiries and assisting with medication needs.</li>
-                </ul>
-            </li>
-            <li class="experience-item">
-                <h3>Seven Eleven - Assistant Manager</h3>
-                <p>January 4, 2023 - August 18, 2024</p>
-                <p>4 College Ave, Somerville, Massachusetts 02144</p>
-                <ul>
-                    <li>Supervised daily store operations, ensuring efficient workflow.</li>
-                    <li>Trained and managed staff, promoting teamwork and high standards of service.</li>
-                    <li>Handled inventory management and ordering, reducing costs and preventing shortages.</li>
-                </ul>
-            </li>
-        </ul>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase"></i> Professional Experience
+            </h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon medical">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Medical Internship & Fellowship</h3>
+                            <p class="company">Satkhira Medical College & Hospital</p>
+                            <p class="duration">
+                                <i class="fas fa-calendar"></i> 2021 - 2022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>Completed comprehensive medical internship and fellowship program.</p>
+                        <div class="card-tags">
+                            <span class="tag">Medical Practice</span>
+                            <span class="tag">Patient Care</span>
+                            <span class="tag">Fellowship</span>
+                        </div>
+                        <p class="fellowship-note">
+                            <i class="fas fa-award"></i> Fellowship from Manipal College of Medical Sciences, Pokhara, Nepal
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon management">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Assistant Manager</h3>
+                            <p class="company">Seven Eleven</p>
+                            <p class="duration">
+                                <i class="fas fa-calendar"></i> Jan 2023 - Aug 2024
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Supervised daily store operations, ensuring efficient workflow</li>
+                            <li><i class="fas fa-check"></i> Trained and managed staff, promoting teamwork</li>
+                            <li><i class="fas fa-check"></i> Handled inventory management and ordering</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Management</span>
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Operations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon pharmacy">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Pharmacy Technician</h3>
+                            <p class="company">CVS Pharmacy</p>
+                            <p class="duration">
+                                <i class="fas fa-calendar"></i> Dec 2022 - Apr 2024
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Supported pharmacists in dispensing medications</li>
+                            <li><i class="fas fa-check"></i> Maintained accurate patient records</li>
+                            <li><i class="fas fa-check"></i> Provided patient care and assistance</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Patient Care</span>
+                            <span class="tag">Pharmacy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon service">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Crew Member</h3>
+                            <p class="company">Dunkin' Donuts</p>
+                            <p class="duration">
+                                <i class="fas fa-calendar"></i> Oct 2022 - Jun 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Provided excellent customer service</li>
+                            <li><i class="fas fa-check"></i> Assisted in food preparation</li>
+                            <li><i class="fas fa-check"></i> Managed cash register operations</li>
+                        </ul>
+                        <div class="card-tags">
+                            <span class="tag">Customer Service</span>
+                            <span class="tag">Food Service</span>
+                            <span class="tag">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i> Get In Touch
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+19173254319">+1 (917) 325-4319</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:drsajid544@gmail.com">drsajid544@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sudipta Shaheen Sajid. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Active navigation link
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll indicator animation
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+        scrollIndicator.addEventListener('click', () => {
+            document.querySelector('#about').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
